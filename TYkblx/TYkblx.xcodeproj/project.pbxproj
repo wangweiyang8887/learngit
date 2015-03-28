@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCEF16A11AA6F5DF00B575E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF16A01AA6F5DF00B575E1 /* Foundation.framework */; };
+		BCEF16A31AA6F5DF00B575E1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF16A21AA6F5DF00B575E1 /* CoreGraphics.framework */; };
+		BCEF16A51AA6F5E000B575E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF16A41AA6F5E000B575E1 /* UIKit.framework */; };
+		BCEF16AB1AA6F5E000B575E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCEF16A91AA6F5E000B575E1 /* InfoPlist.strings */; };
+		BCEF16AD1AA6F5E000B575E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF16AC1AA6F5E000B575E1 /* main.m */; };
+		BCEF16B11AA6F5E000B575E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF16B01AA6F5E000B575E1 /* AppDelegate.m */; };
+		BCEF16B31AA6F5E000B575E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCEF16B21AA6F5E000B575E1 /* Images.xcassets */; };
+		BCEF16BA1AA6F5E000B575E1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF16B91AA6F5E000B575E1 /* XCTest.framework */; };
+		BCEF16BB1AA6F5E000B575E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF16A01AA6F5DF00B575E1 /* Foundation.framework */; };
+		BCEF16BC1AA6F5E000B575E1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEF16A41AA6F5E000B575E1 /* UIKit.framework */; };
+		BCEF16C41AA6F5E000B575E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCEF16C21AA6F5E000B575E1 /* InfoPlist.strings */; };
+		BCEF16C61AA6F5E000B575E1 /* TYkblxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF16C51AA6F5E000B575E1 /* TYkblxTests.m */; };
+		BCEF16D41AA6F62B00B575E1 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF16D31AA6F62B00B575E1 /* ParentViewController.m */; };
+		BCEF16D71AA6F64100B575E1 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCEF16D61AA6F64100B575E1 /* RootViewController.m */; };
+		BCEF16D91AA6F6AB00B575E1 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCEF16D81AA6F6AB00B575E1 /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCEF16BD1AA6F5E000B575E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCEF16951AA6F5DF00B575E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCEF169C1AA6F5DF00B575E1;
+			remoteInfo = TYkblx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCEF169D1AA6F5DF00B575E1 /* TYkblx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYkblx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEF16A01AA6F5DF00B575E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCEF16A21AA6F5DF00B575E1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCEF16A41AA6F5E000B575E1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCEF16A81AA6F5E000B575E1 /* TYkblx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TYkblx-Info.plist"; sourceTree = "<group>"; };
+		BCEF16AA1AA6F5E000B575E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCEF16AC1AA6F5E000B575E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCEF16AE1AA6F5E000B575E1 /* TYkblx-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYkblx-Prefix.pch"; sourceTree = "<group>"; };
+		BCEF16AF1AA6F5E000B575E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCEF16B01AA6F5E000B575E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCEF16B21AA6F5E000B575E1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCEF16B81AA6F5E000B575E1 /* TYkblxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYkblxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCEF16B91AA6F5E000B575E1 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCEF16C11AA6F5E000B575E1 /* TYkblxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TYkblxTests-Info.plist"; sourceTree = "<group>"; };
+		BCEF16C31AA6F5E000B575E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCEF16C51AA6F5E000B575E1 /* TYkblxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYkblxTests.m; sourceTree = "<group>"; };
+		BCEF16D21AA6F62B00B575E1 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		BCEF16D31AA6F62B00B575E1 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		BCEF16D51AA6F64100B575E1 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		BCEF16D61AA6F64100B575E1 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		BCEF16D81AA6F6AB00B575E1 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCEF169A1AA6F5DF00B575E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF16A31AA6F5DF00B575E1 /* CoreGraphics.framework in Frameworks */,
+				BCEF16A51AA6F5E000B575E1 /* UIKit.framework in Frameworks */,
+				BCEF16A11AA6F5DF00B575E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEF16B51AA6F5E000B575E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF16BA1AA6F5E000B575E1 /* XCTest.framework in Frameworks */,
+				BCEF16BC1AA6F5E000B575E1 /* UIKit.framework in Frameworks */,
+				BCEF16BB1AA6F5E000B575E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCEF16941AA6F5DF00B575E1 = {
+			isa = PBXGroup;
+			children = (
+				BCEF16D11AA6F5FB00B575E1 /* Controllers */,
+				BCEF16D01AA6F5EE00B575E1 /* Views */,
+				BCEF16CF1AA6F5E600B575E1 /* Models */,
+				BCEF16A61AA6F5E000B575E1 /* TYkblx */,
+				BCEF16BF1AA6F5E000B575E1 /* TYkblxTests */,
+				BCEF169F1AA6F5DF00B575E1 /* Frameworks */,
+				BCEF169E1AA6F5DF00B575E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCEF169E1AA6F5DF00B575E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF169D1AA6F5DF00B575E1 /* TYkblx.app */,
+				BCEF16B81AA6F5E000B575E1 /* TYkblxTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCEF169F1AA6F5DF00B575E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF16A01AA6F5DF00B575E1 /* Foundation.framework */,
+				BCEF16A21AA6F5DF00B575E1 /* CoreGraphics.framework */,
+				BCEF16A41AA6F5E000B575E1 /* UIKit.framework */,
+				BCEF16B91AA6F5E000B575E1 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCEF16A61AA6F5E000B575E1 /* TYkblx */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF16AF1AA6F5E000B575E1 /* AppDelegate.h */,
+				BCEF16B01AA6F5E000B575E1 /* AppDelegate.m */,
+				BCEF16B21AA6F5E000B575E1 /* Images.xcassets */,
+				BCEF16A71AA6F5E000B575E1 /* Supporting Files */,
+			);
+			path = TYkblx;
+			sourceTree = "<group>";
+		};
+		BCEF16A71AA6F5E000B575E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF16A81AA6F5E000B575E1 /* TYkblx-Info.plist */,
+				BCEF16A91AA6F5E000B575E1 /* InfoPlist.strings */,
+				BCEF16AC1AA6F5E000B575E1 /* main.m */,
+				BCEF16AE1AA6F5E000B575E1 /* TYkblx-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCEF16BF1AA6F5E000B575E1 /* TYkblxTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF16C51AA6F5E000B575E1 /* TYkblxTests.m */,
+				BCEF16C01AA6F5E000B575E1 /* Supporting Files */,
+			);
+			path = TYkblxTests;
+			sourceTree = "<group>";
+		};
+		BCEF16C01AA6F5E000B575E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF16C11AA6F5E000B575E1 /* TYkblxTests-Info.plist */,
+				BCEF16C21AA6F5E000B575E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCEF16CF1AA6F5E600B575E1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BCEF16D01AA6F5EE00B575E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BCEF16D11AA6F5FB00B575E1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BCEF16D21AA6F62B00B575E1 /* ParentViewController.h */,
+				BCEF16D31AA6F62B00B575E1 /* ParentViewController.m */,
+				BCEF16D51AA6F64100B575E1 /* RootViewController.h */,
+				BCEF16D61AA6F64100B575E1 /* RootViewController.m */,
+				BCEF16D81AA6F6AB00B575E1 /* RootViewController.xib */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCEF169C1AA6F5DF00B575E1 /* TYkblx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEF16C91AA6F5E000B575E1 /* Build configuration list for PBXNativeTarget "TYkblx" */;
+			buildPhases = (
+				BCEF16991AA6F5DF00B575E1 /* Sources */,
+				BCEF169A1AA6F5DF00B575E1 /* Frameworks */,
+				BCEF169B1AA6F5DF00B575E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYkblx;
+			productName = TYkblx;
+			productReference = BCEF169D1AA6F5DF00B575E1 /* TYkblx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCEF16B71AA6F5E000B575E1 /* TYkblxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCEF16CC1AA6F5E000B575E1 /* Build configuration list for PBXNativeTarget "TYkblxTests" */;
+			buildPhases = (
+				BCEF16B41AA6F5E000B575E1 /* Sources */,
+				BCEF16B51AA6F5E000B575E1 /* Frameworks */,
+				BCEF16B61AA6F5E000B575E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCEF16BE1AA6F5E000B575E1 /* PBXTargetDependency */,
+			);
+			name = TYkblxTests;
+			productName = TYkblxTests;
+			productReference = BCEF16B81AA6F5E000B575E1 /* TYkblxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCEF16951AA6F5DF00B575E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Tyoung;
+				TargetAttributes = {
+					BCEF16B71AA6F5E000B575E1 = {
+						TestTargetID = BCEF169C1AA6F5DF00B575E1;
+					};
+				};
+			};
+			buildConfigurationList = BCEF16981AA6F5DF00B575E1 /* Build configuration list for PBXProject "TYkblx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCEF16941AA6F5DF00B575E1;
+			productRefGroup = BCEF169E1AA6F5DF00B575E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCEF169C1AA6F5DF00B575E1 /* TYkblx */,
+				BCEF16B71AA6F5E000B575E1 /* TYkblxTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCEF169B1AA6F5DF00B575E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF16AB1AA6F5E000B575E1 /* InfoPlist.strings in Resources */,
+				BCEF16B31AA6F5E000B575E1 /* Images.xcassets in Resources */,
+				BCEF16D91AA6F6AB00B575E1 /* RootViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEF16B61AA6F5E000B575E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF16C41AA6F5E000B575E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCEF16991AA6F5DF00B575E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF16B11AA6F5E000B575E1 /* AppDelegate.m in Sources */,
+				BCEF16AD1AA6F5E000B575E1 /* main.m in Sources */,
+				BCEF16D71AA6F64100B575E1 /* RootViewController.m in Sources */,
+				BCEF16D41AA6F62B00B575E1 /* ParentViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCEF16B41AA6F5E000B575E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEF16C61AA6F5E000B575E1 /* TYkblxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCEF16BE1AA6F5E000B575E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCEF169C1AA6F5DF00B575E1 /* TYkblx */;
+			targetProxy = BCEF16BD1AA6F5E000B575E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCEF16A91AA6F5E000B575E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEF16AA1AA6F5E000B575E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCEF16C21AA6F5E000B575E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCEF16C31AA6F5E000B575E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCEF16C71AA6F5E000B575E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCEF16C81AA6F5E000B575E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCEF16CA1AA6F5E000B575E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TYkblx/TYkblx-Prefix.pch";
+				INFOPLIST_FILE = "TYkblx/TYkblx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCEF16CB1AA6F5E000B575E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TYkblx/TYkblx-Prefix.pch";
+				INFOPLIST_FILE = "TYkblx/TYkblx-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCEF16CD1AA6F5E000B575E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TYkblx.app/TYkblx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TYkblx/TYkblx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TYkblxTests/TYkblxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCEF16CE1AA6F5E000B575E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TYkblx.app/TYkblx";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TYkblx/TYkblx-Prefix.pch";
+				INFOPLIST_FILE = "TYkblxTests/TYkblxTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCEF16981AA6F5DF00B575E1 /* Build configuration list for PBXProject "TYkblx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEF16C71AA6F5E000B575E1 /* Debug */,
+				BCEF16C81AA6F5E000B575E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCEF16C91AA6F5E000B575E1 /* Build configuration list for PBXNativeTarget "TYkblx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEF16CA1AA6F5E000B575E1 /* Debug */,
+				BCEF16CB1AA6F5E000B575E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCEF16CC1AA6F5E000B575E1 /* Build configuration list for PBXNativeTarget "TYkblxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCEF16CD1AA6F5E000B575E1 /* Debug */,
+				BCEF16CE1AA6F5E000B575E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCEF16951AA6F5DF00B575E1 /* Project object */;
+}
